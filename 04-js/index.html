@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularz walidacji</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="myForm">
+      <!-- Etykieta dla pola wprowadzania imienia. -->
+      <label id="field">Name:</label>
+      <!-- Etykieta dla pola wprowadzania imienia. -->
+      <input id="name" type="text" />
+      <div id="nameErrorContainer" class="error-container">
+        <!-- Kontener na komunikat błędu dla pola imienia. -->
+        <!--<span> jest często używany do wyświetlania komunikatów błędów związanych z konkretnym polem formularza. który może zawierać dowolny tekst -->
+        <span id="nameError" class="error"></span>
+      </div>
+      <br />
+      <label id="field">E-mail:</label>
+      <input id="email" type="text" />
+      <div id="emailErrorContainer" class="error-container">
+        <span id="emailError" class="error"></span>
+      </div>
+      <br />
+      <p id="errors"></p>
+      <button id="button">Submit</button>
+    </form>
+
+    <script src="form.js"></script>
+  </body>
+</html>

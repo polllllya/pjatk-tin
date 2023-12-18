@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Przykład strony HTML5</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @media print {
+        body {
+          font-family: "Times New Roman", Times, serif;
+        }
+        nav {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <img
+        src="https://pja.edu.pl/wp-content/themes/pjatk/img/logo.svg"
+        alt="Obrazek"
+        class="header-image"
+      />
+      <nav>
+        <ul>
+          <li><a href="https://pja.edu.pl/">Home</a></li>
+          <li><a href="/stud.html">Studenci</a></li>
+          <li><a href="#">Plan zajęć</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="menu">
+        <h1>Menu</h1>
+        <ul>
+          <li><a href="#">Opcja 1</a></li>
+          <li><a href="#">Opcja 2</a></li>
+          <li><a href="#">Opcja 3</a></li>
+        </ul>
+      </section>
+      <section id="content">
+        <h1>Nagłówek h1</h1>
+        <p>Paragraf</p>
+        <h3>Nagłówek h3</h3>
+        <ul>
+          <li>Pierwszy element listy</li>
+          <li>Drugi element listy</li>
+        </ul>
+        <ol>
+          <li>Pierwszy element numerowanej listy</li>
+          <li>Drugi element numerowanej listy</li>
+        </ol>
+        <table>
+          <tr>
+            <th>Tabela</th>
+          </tr>
+          <tr>
+            <td>Wiersz 1</td>
+            <td>Dane 1</td>
+          </tr>
+          <tr>
+            <td>Wiersz 2</td>
+            <td>Dane 2</td>
+          </tr>
+        </table>
+      </section>
+      <section id="test">
+        <h5>Nagłówek h5</h5>
+        <p>Test test test</p>
+      </section>
+    </main>
+    <footer>
+      <p>Stopka</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+  font-family: "Gill Sans", sans-serif;
+}
+
+input {
+  border-radius: 2px;
+  border: 2px solid rgb(205, 205, 205);
+  padding: 8px 15px;
+}
+
+input.error {
+  border-color: #ff514e;
+}
+
+.error-container {
+  color: #ff514e;
+  font-size: 14px;
+  display: none;
+  /* oznacza, że element jest ukryty i nie zajmuje miejsca na stronie, tak jakby go nie było. */
+}
+
+#button {
+  background-color: #008cba;
+  border-radius: 2px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin: 15px;
+  width: 15%;
+}
+
+#field {
+  font-size: 20px;
+  color: #008cba;
+}
+
+#errors {
+  color: #ff514e;
+}
+
+#field,
+#name,
+#email {
+  width: 10%;
+  margin: 10px;
+}

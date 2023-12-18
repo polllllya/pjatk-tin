@@ -1,0 +1,67 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+table,
+th,
+td {
+  margin: 0;
+  padding: 10px;
+}
+
+h1,
+h3,
+h5 {
+  text-shadow: 1px 1px 2px red;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  background-color: gainsboro;
+  padding: 100px;
+}
+
+table {
+  background-color: gainsboro;
+}
+
+body {
+  font-family: "Gill Sans", sans-serif;
+}
+
+.header-image {
+  width: 100%;
+}
+
+nav li {
+  display: inline;
+  margin-right: 150px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+#menu,
+#content,
+#test {
+  width: 30%;
+  display: inline-table;
+  vertical-align: top;
+}
+
+footer {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+}
