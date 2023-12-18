@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="/submit" method="post">
+      <label id="field" for="name">Name:</label>
+      <input id="name" type="text" name="name" />
+      <div id="nameErrorContainer" class="error-container">
+        <span id="nameError" class="error"></span>
+      </div>
+      <br />
+      <label id="field" for="email">E-mail:</label>
+      <input id="email" type="text" name="email" />
+      <div id="emailErrorContainer" class="error-container">
+        <span id="emailError" class="error"></span>
+      </div>
+      <br />
+      <p id="errors"></p>
+      <button type="submit" id="button">Submit</button>
+    </form>
+  </body>
+</html>

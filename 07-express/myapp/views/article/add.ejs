@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Article</title>
+    <link rel="stylesheet" href="/public/style.css" />
+  </head>
+
+  <body>
+    <h1>Add Article</h1>
+    <form method="post" action="/articles/add">
+      <label>Title:</label><br />
+      <input style="width: 20%" type="text" name="title" required /><br />
+      <label>Content:</label><br />
+      <textarea name="content" style="width: 20%" required></textarea> <br />
+      <input type="submit" value="Add Article" style="margin-top: 20px" />
+    </form>
+  </body>
+</html>

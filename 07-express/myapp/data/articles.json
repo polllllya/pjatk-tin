@@ -1,0 +1,26 @@
+[
+  {
+    "title": "JavaScript - programowanie w środowisku przeglądarki",
+    "content": "Sporządź formularz zawierający kilka pól znakowych. W ramach strony zbuduj oparty na JavaScript mechanizm walidacji, który obejmie: dla co najmniej jednego pola tekstowego: kontrolowanie, czy zawiera dane o odpowiedniej długości (np. z zakresu długości od 2 do 60 znaków) dla pola przeznaczonego na wpisanie adresu e-mail – sprawdzenie (w tym celu warto zastosować wyrażenie regularne) czy wprowadzony łańcuch znaków odpowiada składni adresu e-mail."
+  },
+  {
+    "title": "Node.js - wprowadzenie",
+    "content": "Zaopatrz się w działające środowisko dla budowy aplikacji w Node.js. Wykonaj za jego pomocą następujące zadanie. Zaimplementuj (bez stosowania dodatkowych frameworków) prosty serwer http, który będzie przyjmował żądania zawierające nazwę żądanej operacji (dodaj, odejmij, pomnóż, podziel) i dwa argumenty oraz wypisywał w postaci minimalistycznej strony HTML wynik takiej operacji. Szczegóły realizacji nie są narzucone. Argumenty mogą pojawić się np. w URL jako tzw. query string (część adresu URL znajdującą się po znaku „?”)"
+  },
+  {
+    "title": "Node.js / Express - wzorzec MVC i trwałości danych",
+    "content": "Zbuduj funkcjonalność witryny opartą na Express. Implementacja powinna być zorganizowana według omówionej tutaj struktury wzorca MVC. Funkcjonalność powinna dotyczyć pojedynczej wybranej encji (np. Pracownik, Produkt, Artykuł itp.) i obejmować: stronę listującą zgromadzone w systemie , instancje tej encji, stronę formularza do dodawania nowej instancji, stronę obsługującą żądanie dodania nowej instancji stronę wyświetlającą szczegóły (wszystkie atrybuty) wybranego obiektu."
+  },
+  {
+    "title": "test",
+    "content": "test"
+  },
+  {
+    "title": "JavaScript - programowanie w środowisku przeglądarki i initernetu ",
+    "content": "nie"
+  },
+  {
+    "title": "tets1",
+    "content": "test1"
+  }
+]
